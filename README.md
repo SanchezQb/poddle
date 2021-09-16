@@ -1,6 +1,6 @@
-# podcast_app
+# Poddle
 
-A new Flutter project.
+A podcast app built with Flutter.
 
 ## Getting Started
 
