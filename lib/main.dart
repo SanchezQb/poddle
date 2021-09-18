@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:podcast_app/app/theme/app_theme.dart';
 import 'package:podcast_app/config/routes/routes.dart';
 
 void main() {
@@ -11,10 +12,8 @@ class Poddle extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Poddle',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      onGenerateRoute: Routes.generateRoutes,
+      theme: theme,
+      onGenerateRoute: generateRoutes,
     );
   }
 }

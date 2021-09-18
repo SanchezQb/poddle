@@ -7,3 +7,6 @@ class DioAPIService {
   );
   Dio dio = Dio(options);
 }
+
+
+// curl -X GET --include 'https://listen-api.listennotes.com/api/v2/best_podcasts' -H 'X-ListenAPI-Key: 201b12c1b7b74326bfe74fd5f409765f'
