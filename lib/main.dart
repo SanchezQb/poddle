@@ -14,6 +14,8 @@ class Poddle extends StatelessWidget {
       title: 'Poddle',
       theme: theme,
       onGenerateRoute: generateRoutes,
+      debugShowCheckedModeBanner: false,
+      // debugShowMaterialGrid: true,
     );
   }
 }
